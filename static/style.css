@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./cloud_bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    /* background-color: rgba(165, 242, 251, 0.865); */
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.heading{
+    height: 450px;
+    padding: 10px;
+    line-height: 15px;
+    /* background-color: rgba(224, 231, 237, 0.5); */
+}
+
+.heading img{
+    position: absolute;
+    left: 730px;
+    top: 150px;
+    width: 500px;
+    height: 350px;
+}
+
+
+.text{
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+}
+
+
+.output{
+    display: inline;
+   
+}
+
+textarea {
+    width: 600px;
+    height: 400px;
+    font-size: 20px;
+    padding: 15px;
+    border-color: cornflowerblue;
+    border-width: 1px;
+    border-radius: 20px;
+    background-color: rgba(246, 249, 251, 0.5);
+    color: #3904fa;
+    text-shadow: 0 0 10px rgba(52, 93, 182, 0.906);
+    
+}
+
+.input textarea:focus {
+    outline: none !important;
+    border:1px solid rgb(0, 89, 255);
+    box-shadow: 0 0 15px #77aeea;
+  }
+
+.output textarea:focus{
+    outline: none;
+}
+
+textarea:hover {
+    outline: none !important;
+    border:1px solid rgb(0, 89, 255);
+    box-shadow: 0 0 15px #0962c0;
+  }
+
+
+
+
+.btn{
+    padding: 10px;
+    border-radius: 30px;
+    border-color: cornflowerblue;
+    background-color: rgba(15, 174, 227, 0.922);
+    color: black;
+    border: 3px;
+    border-color: blue;
+    /* margin-left: 472px; */
+    font-size: 18px;
+    width: 125px;
+    position: relative;
+    left: 472px;
+    bottom: 35px;
+       
+}
+
+
+.footor{
+    margin-top: 150px;
+}
+
+
+textarea::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+
+.text p{
+    margin-left: 10px;
+
+}
+
+.container img{
+    height: 60px;
+    width: 85px;
+    position: relative;
+    /* right: 947px; */
+    right: 1100px;
+    top: 7px;
+}
+
+.container h3{
+    position: relative;
+    /* right: 565px; */
+    right: 713px;
+    top: 4px;
+    color: #1D24CA;
+    font-size: 50px;
+}
+
+.heading h1{
+    color: #1B1A55;
+    font-size: 130px;
+}
+
+.heading h2{
+    color: #1B1A55;
+    font-size: 50px;
+}
+
+.heading h3{
+    color: #1B1A55;
+    font-size: 40px;
+}
+
+.heading h4{
+    color: #1B1A55;
+    font-size: 35px;
+}
+
+.output button{
+    padding: 7px;
+    width: 100px;
+    font-size: 20px;
+    left: 496px;
+    bottom: 35px;
+}
+
+.hero{
+    padding: 20px 20px;
+    height: 400px;
+}
+
+.hero h2{
+    /* margin-top: 40px;  */
+    text-decoration: underline 2px solid blue;
+    text-underline-offset: 10px;
+    font-size: 40px;
+    color: #1B1A55 ;
+
+}
+
+.hero .about{
+    width: 550px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.hero p{
+    text-align: justify;
+    word-wrap: break-word;
+    font-size: 20px;
+    color: #0e0e0f;
+    text-shadow: 0 0 2px rgba(2, 107, 254, 0.906);  
+}
+
+.hero img{
+    position: relative;
+    left: 600px;
+    bottom: 105px;
+    width: 600px;
+    height: 300px;
+}
+
+.upload-ubtn-wrapper{
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    left: 30px;
+    top: 975px;
+    border-radius: 30px;
+}
+
+.upload-ubtn-wrapper:hover{
+    background-color: rgb(190, 190, 190);
+}
+
+
+
+.ubtn{
+    border: none;
+    color: #1D24CA;
+    background-color: transparent;
+    padding: 5px 8px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    width: 130px;
+    
+}
+
+
+.upload-ubtn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left:0;
+    top: 0;
+    opacity: 0;
+  }
+
+.paste-btn{
+    position: absolute;
+    top: 730px;
+    left: 245px;
+    padding: 12px;
+    font-size: 15px;
+    width: 120px;
+    background-color: transparent;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 10px;
+    
+}
+
+.paste-icon{
+    font-size: 20px;    
+    padding: 7px;
+}
+
+.output button{
+    width: 120px;
+    padding: 8px;
+    left: 475px;
+}
+
+.hero2{
+    /* background-color: chocolate; */
+    margin-top: 20px;
+    text-align: center;
+    margin: auto;
+    width: 1100px;
+    height: 160px;
+    padding: 10px;
+    margin-top: 100px;
+
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    color: #1B1A55;
+    text-shadow: 0px 0px 10px blueviolet;
+}
+
+.hero3{
+    padding: 20px 20px;
+    height: 400px;
+    margin: 20px auto;
+    /* background-color: chocolate; */
+}
+
+.hero3 .hero3_text{
+    /* width: 700px;
+    height: 200px; */
+    /* background-color: crimson; */
+    position: absolute;
+    left: 480px;
+    top: 1950px;
+    /* margin-top: 20px; */
+    padding: 10px;
+    margin-right: 20px;
+}
+
+
+
+.hero3 p{
+    text-align: center;
+    /* word-wrap: break-word; */
+    font-size: 25px;
+    color: #a31fcb;
+    text-shadow: 0 0 5px rgba(62, 49, 240, 0.906);  
+
+
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.hero3 img{
+    position: relative;
+    top: 20px;
+    right: 10px;
+    /* left: 10px; */
+    width: 400px;
+    height: 300px;
+}
